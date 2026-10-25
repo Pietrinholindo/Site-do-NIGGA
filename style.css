@@ -1,0 +1,57 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body
+{
+    background-color: rgb(21, 21, 110);
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    height: 100vh;
+}
+.casa
+{
+    background-color: white;
+    width: fit-content;
+    padding: 2vh;
+    border-radius: 8px;
+    height: 55vh;
+    justify-self: center;
+    
+}
+.casa form
+{
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    justify-self: center;
+    margin-top: 10vh;
+    
+}
+.casa h1
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 1px;
+}
+.casa input
+{
+    height: 6vh;
+    border-radius: 7px;
+    border-color:  rgb(21, 21, 110);
+    margin: 1vh;
+    text-align: center;
+}
+.casa button
+{
+    width: 40vh;
+    height: 9vh;
+    background-color: blue;
+    border-radius: 7px;
+    color: white;
+    border: none;
+}
+.casa img{
+    max-width: 8vh;
+    max-height: 8vh;
+    justify-self: center;
+}

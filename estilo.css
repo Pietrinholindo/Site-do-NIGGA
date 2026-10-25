@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+}
+
+header h1 {
+    background-color: rgb(21, 21, 110);
+    color: white;
+    margin-top: none;
+    font-size: 6vh;
+    padding: 8vh;
+    font-family:
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Open Sans",
+        "Helvetica Neue",
+        sans-serif;
+    text-align: center;
+    box-shadow: 4vh;
+}
+
+.meiodatela {
+    justify-self: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.meiodatela h1 {
+    font-size: 7vh;
+}
+
+.meiodatela button {
+    background-color: rgb(21, 21, 110);
+    width: 30vh;
+    color: white;
+    padding: 5%;
+    border: none;
+    border-radius: 2vh;
+    margin-top: 3vh;
+    font-size: 4vh;
+}
+
+.resultadobonito {
+    text-align: center;
+    margin: 3vh;
+    background-color: white;
+    border: 2px;
+    border-style: groove;
+    border-color: rgb(21, 21, 110);
+    padding: 1vh;
+    width: fit-content;
+    justify-self: center;
+    transition: 0.2s;
+    border-radius: 9px;
+}
+
+.meiodatela button :active {
+    background-color: green;
+}
